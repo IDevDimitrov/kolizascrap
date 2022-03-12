@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
      
-     <copyright>2021 &copy; Коли за скрап Пазарджик. All rights reserved.</copyright>
+     <copyright>2022 &copy; Коли за скрап Пазарджик. All rights reserved.</copyright>
       
     </footer>
   );
