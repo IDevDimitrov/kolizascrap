@@ -17,7 +17,12 @@ const Service = () => {
       </Head>
       <div className={styles.container}>
         <div className={styles.picture}>
-          <Image src="/service.jpg" alt="cars" width={500} height={500} />
+          <Image src="/service.jpg" alt="cars"  width={900}
+            height={540}
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+            }} />
         </div>
         <div className={styles.text}>
           <p className={styles.paragraph}>
