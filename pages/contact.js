@@ -23,7 +23,12 @@ const Contact = () => {
       </Head>
       <div className={styles.container}>
         <div className={styles.picture}>
-          <Image src="/contact.jpg" alt="cars" width={500} height={500} />
+          <Image src="/contact.jpg" alt="cars"  width={900}
+            height={540}
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+            }} />
         </div>
         <p>
           Може да отправите своето запитване по имейл, а за да оценим колата Ви
