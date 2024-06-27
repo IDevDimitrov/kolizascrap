@@ -17,7 +17,12 @@ const About = () => {
 
       <div className={styles.container}>
         <div className={styles.picture}>
-          <Image src="/about.jpeg" alt="cars" width={500} height={500} />
+          <Image src="/about.jpeg" alt="cars"  width={900}
+            height={540}
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+            }}} />
         </div>
         <div className={styles.text}>
           <p className={styles.paragraph}>
