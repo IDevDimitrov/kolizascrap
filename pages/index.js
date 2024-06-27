@@ -17,7 +17,7 @@ export default function Home() {
       <h1 className={styles.heading}>Коли за скрап Пазарджик</h1>
       <div className={styles.container}>
         <div className={styles.picture}>
-          <Image src="/cars.jpg" alt="cars" width={500} height={500} />
+          <Image src="/cars.jpg" alt="cars" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"} />
           <Link href="tel:0878817777">
             <a className={styles.phone}>0878817777</a>
           </Link>
